@@ -50,7 +50,7 @@ chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go package/luci-app-ddns-go
 git clone --depth=1 https://github.com/sirpdboy/luci-app-netspeedtest package/luci-app-netspeedtest
 git clone --depth=1 https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
-git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall2 package/openwrt-passwall2
+git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall2 package/luci-app-passwall2
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
