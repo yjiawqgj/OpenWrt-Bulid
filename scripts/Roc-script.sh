@@ -48,7 +48,7 @@ chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app
 
 #克隆后自己添加
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go package/luci-app-ddns-go
-git clone --depth=1 https://github.com/sirpdboy/luci-app-netspeedtest package/luci-app-netspeedtest
+git clone --depth=1 https://github.com/sirpdboy/netspeedtest package/luci-app-speedtest
 git clone --depth=1 https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
 # git clone --depth=1 https://github.com/chenmozhijin/luci-app-socat package/luci-app-socat
 # git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall2 package/luci-app-passwall2
